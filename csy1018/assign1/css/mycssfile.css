@@ -1,6 +1,36 @@
 /*Tsompanidis Konstantinos, stud_num 17419239*/
 <html>
+<style>
 body {
-  font-family: 'Cormorant Garamond', serif;
+    background-color: red;
+    font-family: 'Cormorant Garamond', serif;
 }
+
+h1 {
+  color: blue;
+}
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(200,115,0);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #FF0000;
+}
+</style>
 </html>
