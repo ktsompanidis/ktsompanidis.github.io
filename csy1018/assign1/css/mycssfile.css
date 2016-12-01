@@ -1,7 +1,7 @@
 /*Tsompanidis Konstantinos, stud_num 17419239*/
 body {
   font-family: 'Cormorant Garamond', serif;
-  max-width: 1000px;
+  max-width: 800px;
   margin: auto;
 }
 header {
@@ -12,8 +12,30 @@ footer {
   color: white;
 }
 /*style for the text -start-*/
-h1 {color: #FF0000;}
+h1 {
+  color: #FF0000;
+  font-size: 30px;
+}
+h2 {font-size: 24px;}
+h3 {font-size: 22px;}
+p {font-size: 18px;}
+p.small {line-height: 0.5;}
+.copyright {
+  text-align: right;
+  padding: 0px;
+  line-height: 12px;
+}
 /*style for the forms -end-*/
+/*images style -start-*/
+img {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  float: right;
+  max-width: 100%;
+  max-height: 100%;
+
+}
 /*style for the forms -start-*/
 input[type=text] {
      width: 50%;
@@ -22,7 +44,7 @@ input[type=text] {
      border: 1px solid #ccc;
      border-radius: 4px;
      box-sizing: border-box;
- }
+}
  input[type=email] {
      width: 50%;
      padding: 12px 20px;
@@ -46,6 +68,7 @@ input[type=text] {
     width: 50%;
     background-color: rgb(255,71,26);
     color: white;
+    font-size: 16px;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -55,16 +78,18 @@ input[type=text] {
 input[type=submit]:hover {
     background-color: #ff0000;
 }
+label {font-size: 16px;}
 /*style for the forms -end-*/
 /*style for the lists -start-*/
-ul {
+li {font-size: 18px;}
+ul.headerlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(255,71,26);
 }
-li {float: left;}
+li.headerlist {float: left;}
 li a {
     display: block;
     color: white;
@@ -74,5 +99,3 @@ li a {
 }
 li a:hover {background-color: #FF0000;}
 /*style for the forms -end-*/
-.copyright {text-align: right;}
-.small {line-height: 0.5;}
