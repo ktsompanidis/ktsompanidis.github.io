@@ -1,6 +1,9 @@
 /*Tsompanidis Konstantinos, stud_num 17419239*/
-body {font-family: 'Cormorant Garamond', serif;}
-h1 {color: #FF0000;}
+body {
+  font-family: 'Cormorant Garamond', serif;
+  max-width: 1000px;
+  margin: auto;
+}
 header {
   border-left: #ff0000;
 }
@@ -8,8 +11,11 @@ footer {
   background-color: rgb(255,71,26);
   color: white;
 }
- .copyright {text-align: right;}
- input[type=text] {
+/*style for the text -start-*/
+h1 {color: #FF0000;}
+/*style for the forms -end-*/
+/*style for the forms -start-*/
+input[type=text] {
      width: 50%;
      padding: 12px 20px;
      margin: 8px 0;
@@ -49,16 +55,15 @@ footer {
 input[type=submit]:hover {
     background-color: #ff0000;
 }
-.small {line-height: 0.5;}
+/*style for the forms -end-*/
+/*style for the lists -start-*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(255,71,26);
-
 }
-
 li {float: left;}
 li a {
     display: block;
@@ -68,3 +73,6 @@ li a {
     text-decoration: none;
 }
 li a:hover {background-color: #FF0000;}
+/*style for the forms -end-*/
+.copyright {text-align: right;}
+.small {line-height: 0.5;}
