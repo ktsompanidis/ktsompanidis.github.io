@@ -25,17 +25,66 @@ p.small {line-height: 0.5;}
   padding: 0px;
   line-height: 12px;
 }
-/*style for the forms -end-*/
+#a1 {
+  color: #4d0000
+}
+/*style for the text -end-*/
 /*images style -start-*/
-img {
+.banner {
+  position: relative;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  font-weight: bold;
+  color: #4d0000;
+  text-shadow: 1px 1px;
+}
+div.photolinks1 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+div.photolinks2 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+}
+img.me1 {
   border-radius: 50%;
   border: 1px solid #ddd;
   padding: 10px;
   float: right;
   max-width: 100%;
   max-height: 100%;
-
+  opacity: 0.8;
 }
+img.biolink {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+img.resumelink {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+img.banner {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  opacity: 0.7;
+}
+div.photoslinks {
+  margin: 15px;
+}
+/*images style -end-*/
 /*style for the forms -start-*/
 input[type=text] {
      width: 50%;
