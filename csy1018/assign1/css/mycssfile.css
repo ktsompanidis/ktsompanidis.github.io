@@ -16,17 +16,30 @@ h1 {
   color: #FF0000;
   font-size: 30px;
 }
-h2 {font-size: 24px;}
-h3 {font-size: 22px;}
-p {font-size: 18px;}
-p.small {line-height: 0.5;}
+h2 {
+  font-size: 26px;
+  color: #4d0000
+}
+h3 {
+  font-size: 22px;
+  color: #4d0000
+}
+p {
+  font-size: 18px;
+  color: #4d0000
+}
+p.small {line-height: 2px;}
 .copyright {
   text-align: right;
   padding: 0px;
-  line-height: 12px;
+  line-height: 11px;
+  color: #ffffff;
 }
 #a1 {
-  color: #4d0000
+  color: #ffffff;
+}
+#a2 {
+  color: #4d0000;
 }
 /*style for the text -end-*/
 /*images style -start-*/
