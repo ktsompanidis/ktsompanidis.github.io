@@ -28,7 +28,7 @@ p {
   font-size: 18px;
   color: #4d0000
 }
-p.small {line-height: 2px;}
+p.small {line-height: 0px;}
 .copyright {
   text-align: right;
   padding: 0px;
@@ -81,12 +81,13 @@ img.biolink {
   border-radius: 50%;
   border: 1px solid #ddd;
   margin-bottom: 10px;
+  opacity: 0.8;
 }
 img.resumelink {
   border-radius: 50%;
   border: 1px solid #ddd;
   margin-bottom: 10px;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 img.banner {
   margin-top: 25px;
