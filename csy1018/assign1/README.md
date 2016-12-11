@@ -1,4 +1,4 @@
-# ktsompanidis/ktsompanidis.github.io
+# ktsompanidis.github.io/csy1018/assign1
 
 THIS ASSIGNMENT TOOK APPROXIMATELLY 38 HOURS.
 
