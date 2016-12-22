@@ -1,4 +1,9 @@
 /*Tsompanidis Konstantinos, stud_num 17419239*/
+@media screen and (min-width: 450px) {
+  p, h1, h2, h3 {
+    color: #0000ff;
+  }
+}
 body {
   font-family: 'Cormorant Garamond', serif;
   max-width: 800px;
