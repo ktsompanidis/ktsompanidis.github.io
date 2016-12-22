@@ -77,17 +77,15 @@ img.me1 {
   max-height: 100%;
   opacity: 0.8;
 }
-img.biolink {
+img.link {
   border-radius: 50%;
   border: 1px solid #ddd;
   margin-bottom: 10px;
   opacity: 0.8;
 }
-img.resumelink {
-  border-radius: 50%;
-  border: 1px solid #ddd;
-  margin-bottom: 10px;
-  opacity: 0.8;
+div.description {
+    padding: 15px;
+    text-align: center;
 }
 img.banner {
   margin-top: 25px;
@@ -162,3 +160,15 @@ li a {
 }
 li a:hover {background-color: #FF0000;}
 /*style for the forms -end-*/
+/*style for flexboxes*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 800px;
+    height: 200px;
+}
+.flex-item {
+    width: auto;;
+    height: auto;;
+    margin: auto;;
+}
