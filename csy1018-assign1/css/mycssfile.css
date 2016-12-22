@@ -165,7 +165,7 @@ li a:hover {background-color: #FF0000;}
     display: -webkit-flex;
     display: flex;
     width: 800px;
-    height: 200px;
+    height: 300px;
 }
 .flex-item {
     width: auto;;
