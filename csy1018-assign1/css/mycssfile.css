@@ -1,5 +1,5 @@
 /*Tsompanidis Konstantinos, stud_num 17419239*/
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
   p, h1, h2, h3 {
     color: #0000ff;
   }
@@ -10,6 +10,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   max-width: 800px;
   margin: auto;
+  font-size: 70%
 }
 header {
   border-left: #ff0000;
@@ -22,18 +23,18 @@ footer {
 /*style for text -start-*/
 h1 {
   color: #FF0000;
-  font-size: 30px;
+  font-size: 3.0em;
 }
 h2 {
-  font-size: 26px;
+  font-size: 2.0em;
   color: #4d0000
 }
 h3 {
-  font-size: 22px;
+  font-size: 1.8em;
   color: #4d0000
 }
 p {
-  font-size: 18px;
+  font-size: 1.6em;
   color: #4d0000
 }
 p.small {line-height: 0px;}
@@ -60,7 +61,7 @@ p.small {line-height: 0px;}
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
-  font-size: 22px;
+  font-size: 2.2em;
   font-weight: bold;
   color: #4d0000;
   text-shadow: 1px 1px;
@@ -132,14 +133,14 @@ input[type=text] {
      border: 2px solid #ccc;
      border-radius: 4px;
      background-color: #f8f8f8;
-     font-size: 16px;
+     font-size: 1.6em;
      resize: none;
  }
  input[type=submit] {
     width: 50%;
     background-color: rgb(255,71,26);
     color: white;
-    font-size: 16px;
+    font-size: 1.8em;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -149,11 +150,17 @@ input[type=text] {
 input[type=submit]:hover {
     background-color: #ff0000;
 }
-label {font-size: 16px;}
+label {
+  font-size: 1.8em;
+  color: #4d0000;
+}
 /*style for forms -end-*/
 
 /*style for lists -start-*/
-li {font-size: 18px;}
+li {
+  font-size: 1.8em;
+  color: #4d0000;
+}
 ul.headerlist {
     list-style-type: none;
     margin: 0;
